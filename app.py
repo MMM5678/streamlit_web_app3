@@ -1,5 +1,5 @@
 import cv2
-import os
+#import os
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -11,8 +11,9 @@ def save_frame_camera_key(device_num, dir_path, basename, ext='jpg', delay=1, wi
     if not cap.isOpened():
         return
 
-    os.makedirs(dir_path, exist_ok=True)
-    base_path = os.path.join(dir_path, basename)
+    #os.makedirs(dir_path, exist_ok=True)
+    #base_path = os.path.join(dir_path, basename)
+    base_path = "./" + dir_path + "/" + basename
 
     n = 0
     while n < 2:
