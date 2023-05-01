@@ -1,5 +1,5 @@
 # requirements.txt 
-PyAutoGUI 0.9.52
+#PyAutoGUI 0.9.52
 
 #Pillow==8.4.0
 #pandas==1.2.3
